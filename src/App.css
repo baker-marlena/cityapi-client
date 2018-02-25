@@ -1,0 +1,33 @@
+.App {
+  display:grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+.App-title {
+  font-size: 1.5em;
+  grid-column: 2/3;
+}
+
+.app-description {
+  font-size: .5rem;
+}
+
+.path-builder {
+  border: 1px solid darkgrey;
+  background-color: lightgrey;
+  color: darkgrey;
+  border-radius: 20px;
+  grid-column: 2/3;
+  padding: 5px;
+  padding-left: 20px;
+}
